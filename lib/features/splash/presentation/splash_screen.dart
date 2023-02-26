@@ -38,7 +38,7 @@ class _SplashScreenState extends State<SplashScreen> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: const [
               Text(
-                'Splash Screen ',
+                'Splash Screen',
                 style: TextStyle(
                   fontSize: 24.0,
                   fontWeight: FontWeight.bold,
