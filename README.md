@@ -13,6 +13,8 @@
     Navigation package that uses code generation to simplify route setup
 - <b>Dio</b>
     Http client for dart. Supports interceptors and global configurations
+- <b>Logger</b>
+    I set up a blended log structure with the logger package and dio interceptor
 - <b>Shared Preferences</b>
     Persistent storage for simple data
 - <b>Unit Test and Widget Test</b>
