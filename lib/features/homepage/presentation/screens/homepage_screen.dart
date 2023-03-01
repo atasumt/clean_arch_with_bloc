@@ -28,7 +28,9 @@ class _HomepageScreenState extends State<HomepageScreen> {
           return Scaffold(
             drawer: state is HomepageLoadedState ? HomepageDrawer(user: state.user) : null,
             appBar: AppBar(
-              title: const Text('Homepage'),
+              title: Text(
+                'Homepage',
+              ),
             ),
             body: state is HomepageLoadingState
                 ? const Center(

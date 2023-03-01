@@ -5,3 +5,4 @@ import 'package:flutter_project/features/auth/data/models/user_model.dart';
 abstract class LoginUserRepository {
   Future<Either<Failure, User>> login({required User user});
 }
+//Bu abstract class’ı interface olarak kullanacağız.

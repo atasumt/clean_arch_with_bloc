@@ -3,8 +3,7 @@ import 'package:flutter_project/core/service_locator.dart';
 import 'package:flutter_project/features/auth/domain/usecases/authentication_usecase.dart';
 import 'package:flutter_project/features/auth/presentation/bloc/authentication_states.dart';
 
-class AuthenticationBloc
-    extends Bloc<AuthenticationEvent, AuthenticationState> {
+class AuthenticationBloc extends Bloc<AuthenticationEvent, AuthenticationState> {
   AuthenticationBloc() : super(const AutenticationInitialState()) {
     on<LoginUserEvent>(
       (event, emit) async {

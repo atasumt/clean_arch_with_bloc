@@ -12,7 +12,8 @@ dependencies:
   auto_route: ^5.0.0
   bloc: ^8.0.3
   cupertino_icons: ^1.0.2
-  dartz: ^0.10.1
+  # iyi bir hata işleme
+  dartz: ^0.10.1 
   dio: ^4.0.6
   equatable: ^2.0.5
   flutter:
