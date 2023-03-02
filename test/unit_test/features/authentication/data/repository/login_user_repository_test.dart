@@ -16,8 +16,7 @@ void main() {
   late LoginUserRepositoryImpl loginUserRepository;
   setUpAll(() {
     mockRemoteDataSource = MockRemoteDataSource();
-    serviceLocator
-        .registerFactory<LoginRemoteDataSource>(() => mockRemoteDataSource);
+    serviceLocator.registerFactory<LoginRemoteDataSource>(() => mockRemoteDataSource);
     loginUserRepository = LoginUserRepositoryImpl();
   });
   final User user = User.fromJson(jsonDecode(fixture('user_response.json')));

@@ -22,9 +22,12 @@ void main() {
       loginRemoteDataSource = LoginRemoteDataSourceImpl();
     },
   );
+
+  //testler bittiğinde entegrasyon testini sonlandırmak için yazıldı.
   tearDownAll(() async {
     await serviceLocator.reset(dispose: true);
   });
+  
   final User user = User.fromJson(jsonDecode(fixture('user_response.json')));
   test(
     'should return user model on successful login',
